@@ -1,79 +1,101 @@
-# Once UI for Next.js
+# NanoStudio.us - AI Video Showcase
 
-A design system for indie builders, startups and freelancers. Once UI combines the simplicity of low-code with the power of code: write 70% less code compared to shadcn + Tailwind. Includes 100+ advanced components.
+A modern, animated web interface for showcasing AI-generated videos, built with Next.js 15 and Once UI Design System.
 
-Check the demo [here](https://demo.once-ui.com).
+## 🚀 Features
 
-![Once UI](public/images/og/home.jpg)
+- **Modern Design**: Built with Once UI Design System for clean, professional aesthetics
+- **Animated Background**: Subtle gradient animations with pixel textures
+- **Responsive Layout**: Optimized for all device sizes
+- **AI Video Showcase**: Grid layout ready for video content
+- **Custom Branding**: NanoStudio.us logo integration
+- **Technical Expertise**: Advanced service descriptions highlighting AI capabilities
 
-## Features
+## 🛠️ Tech Stack
 
-A lightweight starter template with the [Once UI Core](https://github.com/once-ui-system/core) package and our recommended setup to move fast and break limits without neglecting quality.
+- **Next.js 15** with App Router and Turbopack
+- **TypeScript** for type safety
+- **Once UI Design System** for components
+- **Tailwind CSS** for styling
+- **CSS Animations** for background effects
 
-* **Customization**: Manage design config in a single file.
-* **Components**: Access advanced components with simple APIs.
-* **Data-viz**: Add responsive charts with a few lines of code.
-* **SEO**: Use our SEO components to simplify meta and schema setup.
-* **PRO**: Launch ready-made apps with minimal coding with Once UI Pro.
+## 🎨 Design Features
 
-[Get Once UI Pro](https://once-ui.com/pricing)
+- **Animated Gradients**: 4-layer gradient system with smooth transitions
+- **Pixel Textures**: Subtle overlay effects for depth
+- **Color Palette**: 
+  - Purple-blue: `rgba(120, 119, 198, 0.25)`
+  - Pink: `rgba(255, 119, 198, 0.25)`
+  - Light blue: `rgba(120, 219, 255, 0.25)`
+  - Yellow-orange: `rgba(255, 200, 120, 0.2)`
 
-## Documentation
+## 🚀 Getting Started
 
-Learn how to build with Once UI at [docs.once-ui.com](https://docs.once-ui.com/once-ui/quick-start).
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sezyil/nanositevideo.git
+   cd nanositevideo
+   ```
 
-## Quick start
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-[Magic Portfolio](https://once-ui.com/products/magic-portfolio) (FREE): Portfolio starter used and loved by thousands of creatives. Simple, customizable, responsive.
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-[Magic Docs](https://once-ui.com/products/magic-docs) (FREE): Documentation generator. Just add your MDX files and let Magic Docs handle the rest.
+4. **Open your browser**:
+   Navigate to `http://localhost:3000` (or the port shown in terminal)
 
-[Magic Bio](https://once-ui.com/products/magic-bio) (FREE): Link-in-bio template that automatically fetches open-graph data. Just add your links and deploy.
+## 📁 Project Structure
 
-[Magic Convert](https://once-ui.com/products/magic-convert) (PRO): Conversion-optimized landing page and dashboard template.
-
-[Magic Agent](https://once-ui.com/products/magic-agent) (PRO): Deployment-ready AI agent built with the Vercel AI SDK.
-
-[Magic Store](https://once-ui.com/products/magic-store) (PRO): Ecommerce storefront that lets you sell digital and physical products.
-
-[Once UI Blocks](https://once-ui.com/blocks) (PRO): Copy-paste pre-designed blocks and deploy fully-functional sites with lightning speed.
-
-## Design
-
-The design counterpart of the Once UI system is available [here](https://once-ui.com/figma).
-
-## Get started
-
-Clone the starter template from GitHub:
-```bash
-git clone https://github.com/once-ui-system/nextjs-starter.git
+```
+nanositevideo/
+├── src/
+│   ├── app/
+│   │   └── (main)/
+│   │       └── page.tsx          # Main page component
+│   └── resources/
+│       └── custom.css            # Custom animations
+├── public/
+│   └── nano-logo.png            # NanoStudio.us logo
+├── package.json
+└── README.md
 ```
 
-## Creators
+## 🎯 Services Highlighted
 
-Connect with us!
+- **Advanced AI Video Synthesis**
+- **Multi-Modal Prompt Architecture**
+- **Neural Rendering Pipeline**
+- **Custom AI Model Training**
+- **Advanced JSON Schema Design**
+- **Production Pipeline Optimization**
+- **Multi-GPU Rendering**
+- **Real-time AI Inference**
+- **Custom Loss Function Development**
 
-**Lorant One**: [Site](https://lorant.one) / [Threads](https://www.threads.net/@lorant.one) / [LinkedIn](https://www.linkedin.com/in/lorant-one/)
+## 🌐 Deployment
 
-**Zsofia Komaromi**: [Site](https://zsofia.pro) / [Threads](https://www.threads.net/@zsofia_kom) / [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
+The project is ready for deployment on:
+- **Vercel** (recommended for Next.js)
+- **Netlify**
+- **GitHub Pages**
+- Any static hosting service
 
-## Become a Oncer
+## 📝 License
 
-![Design Engineers Club](https://docs.once-ui.com/images/docs/vibe-coding-dark.jpg)
+This project is created for NanoStudio.us by svenca - searcly corp.
 
-Join the [Design Engineers Club](https://discord.com/invite/5EyAQ4eNdS) on Discord to connect with us and share your projects.
+## 🔗 Links
 
-Found a bug? Report it [here](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=bug&template=bug_report.md). Got a feature request? Submit it [here](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=feature%20request&template=feature_request.md).
+- **Live Demo**: [Coming Soon]
+- **GitHub Repository**: https://github.com/sezyil/nanositevideo
+- **Once UI Design System**: https://once-ui.com
 
-Please use the Once UI Core [GitHub repository](https://github.com/once-ui-system/core) for design system contributions.
+---
 
-## Sponsors
-
-Once UI is an indie project. [Sponsor us](https://github.com/sponsors/once-ui-system) and get featured on our site!
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-## Deploy to Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fnextjs-starter&project-name=nextjs-starter&repository-name=nextjs-starter&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fnextjs-starter&demo-title=Next.js%20Starter&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.nextjs-starter.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fnextjs-starter%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)
+*Built with ❤️ for AI video innovation*
