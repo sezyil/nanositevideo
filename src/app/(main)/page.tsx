@@ -74,7 +74,7 @@ export default function Home() {
         align="center"
         style={{ marginTop: "auto", paddingTop: "2rem" }}
       >
-        by svenca - searcly corp
+        info@nanostudio.us
       </Text>
     </Column>
   );
