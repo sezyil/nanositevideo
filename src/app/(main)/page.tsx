@@ -69,7 +69,7 @@ export default function Home() {
       
       {/* Footer */}
       <Text
-        variant="caption-default-s"
+        variant="body-default-s"
         onBackground="neutral-weak"
         align="center"
         style={{ marginTop: "auto", paddingTop: "2rem" }}
