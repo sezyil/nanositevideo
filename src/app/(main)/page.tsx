@@ -38,18 +38,18 @@ export default function Home() {
         />
         <Text
           variant="heading-default-xl"
-          onBackground="neutral-strong"
           wrap="balance"
           marginBottom="16"
+          style={{ color: '#1f2937', fontWeight: 'bold' }}
         >
           Premium AI Video Production for Global Brands • Advanced Neural Rendering Technologies
         </Text>
         <Text
           variant="body-default-l"
-          onBackground="neutral-strong"
           wrap="balance"
           align="center"
           marginBottom="16"
+          style={{ color: '#374151', lineHeight: '1.6' }}
         >
           NANO Studio delivers custom AI model training, advanced neural rendering 
           technologies, and production-grade video synthesis for global brands. We bring 
@@ -57,10 +57,10 @@ export default function Home() {
         </Text>
         <Text
           variant="body-default-s"
-          onBackground="neutral-strong"
           wrap="balance"
           align="center"
           marginBottom="16"
+          style={{ color: '#4b5563', lineHeight: '1.5' }}
         >
           Brand-Specific AI Models • Multi-Modal Video Synthesis • Industrial Render Pipeline • 
           Real-Time AI Processing • Custom Prompt Engineering • Professional Video Post-Production
@@ -70,9 +70,8 @@ export default function Home() {
       {/* Footer */}
       <Text
         variant="body-default-s"
-        onBackground="neutral-strong"
         align="center"
-        style={{ marginTop: "auto", paddingTop: "2rem" }}
+        style={{ marginTop: "auto", paddingTop: "2rem", color: '#6b7280' }}
       >
         info@nanostudio.us
       </Text>
