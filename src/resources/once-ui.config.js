@@ -109,10 +109,10 @@ const effects = {
 const meta = {
   home: {
     path: "/",
-    title: "NANO Studio - Premium AI Video Production for Global Brands",
+    title: "NANO Studio - Premium AI Video Production for Global Brands | Neural Rendering & Custom AI Models",
     description:
-      "NANO Studio creates cutting-edge AI videos for global brands using advanced neural rendering, custom model training, and production-grade AI video synthesis technologies.",
-    image: "/images/og/home.jpg",
+      "NANO Studio creates cutting-edge AI videos for global brands using advanced neural rendering, custom model training, and production-grade AI video synthesis technologies. Professional AI video production services.",
+    image: "/opengraph-image",
     canonical: "https://nanostudio.us",
     robots: "index,follow",
     alternates: [{ href: "https://nanostudio.us", hrefLang: "en" }],
