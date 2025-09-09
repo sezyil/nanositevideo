@@ -1,5 +1,5 @@
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL = "https://demo.once-ui.com";
+const baseURL = "https://nanostudio.us";
 
 // Import and set font for each variant
 import { Geist } from "next/font/google";
@@ -109,31 +109,31 @@ const effects = {
 const meta = {
   home: {
     path: "/",
-    title: "Once UI for Next.js",
+    title: "NANO Studio - Premium AI Video Production for Global Brands",
     description:
-      "An open-source design system and component library for Next.js that emphasizes easy styling and accessibility in UI development.",
+      "NANO Studio creates cutting-edge AI videos for global brands using advanced neural rendering, custom model training, and production-grade AI video synthesis technologies.",
     image: "/images/og/home.jpg",
-    canonical: "https://once-ui.com",
+    canonical: "https://nanostudio.us",
     robots: "index,follow",
-    alternates: [{ href: "https://once-ui.com", hrefLang: "en" }],
+    alternates: [{ href: "https://nanostudio.us", hrefLang: "tr" }],
   },
   // add more routes and reference them in page.tsx
 };
 
 // default schema data
 const schema = {
-  logo: "",
+  logo: "/nano-logo.png",
   type: "Organization",
-  name: "Once UI",
+  name: "NANO Studio",
   description: meta.home.description,
-  email: "lorant@once-ui.com",
+  email: "info@nanostudio.us",
 };
 
 // social links
 const social = {
-  twitter: "https://www.twitter.com/_onceui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  twitter: "",
+  linkedin: "",
+  discord: "",
 };
 
 export { baseURL, fonts, style, meta, schema, social, effects, dataStyle };

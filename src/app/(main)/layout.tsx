@@ -30,7 +30,7 @@ export default function RootLayout({
     <Flex
       suppressHydrationWarning
       as="html"
-      lang="en"
+      lang="tr"
       fillWidth
       className={classNames(
         fonts.heading.variable,
