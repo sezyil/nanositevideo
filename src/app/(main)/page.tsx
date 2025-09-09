@@ -38,7 +38,7 @@ export default function Home() {
         />
         <Text
           variant="heading-default-xl"
-          onBackground="neutral-weak"
+          onBackground="neutral-strong"
           wrap="balance"
           marginBottom="16"
         >
@@ -46,7 +46,7 @@ export default function Home() {
         </Text>
         <Text
           variant="body-default-l"
-          onBackground="neutral-medium"
+          onBackground="neutral-strong"
           wrap="balance"
           align="center"
           marginBottom="16"
@@ -57,7 +57,7 @@ export default function Home() {
         </Text>
         <Text
           variant="body-default-s"
-          onBackground="neutral-medium"
+          onBackground="neutral-strong"
           wrap="balance"
           align="center"
           marginBottom="16"
@@ -70,7 +70,7 @@ export default function Home() {
       {/* Footer */}
       <Text
         variant="body-default-s"
-        onBackground="neutral-weak"
+        onBackground="neutral-strong"
         align="center"
         style={{ marginTop: "auto", paddingTop: "2rem" }}
       >
