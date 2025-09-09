@@ -3,54 +3,79 @@
 import {
   Heading,
   Text,
-  Button,
   Column,
-  Badge,
-  Logo,
-  Line,
-  LetterFx,
 } from "@once-ui-system/core";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <Column fillWidth center padding="l" style={{ minHeight: "100vh" }}>
+    <Column 
+      fillWidth 
+      center 
+      padding="l" 
+      style={{ 
+        minHeight: "100vh",
+        background: `
+          radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.25) 0%, transparent 60%),
+          radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.25) 0%, transparent 60%),
+          radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.25) 0%, transparent 60%),
+          radial-gradient(circle at 60% 60%, rgba(255, 200, 120, 0.2) 0%, transparent 50%),
+          linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)
+        `,
+        backgroundSize: "300% 300%",
+        animation: "backgroundShift 12s ease-in-out infinite",
+        position: "relative"
+      }}
+    >
       <Column maxWidth="s" horizontal="center" gap="l" align="center">
-        <Badge
-          textVariant="code-default-s"
-          border="neutral-alpha-medium"
-          onBackground="neutral-medium"
-          vertical="center"
-          gap="16"
-        >
-          <Logo dark icon="/trademarks/wordmark-dark.svg" href="https://once-ui.com" size="xs" />
-          <Logo light icon="/trademarks/wordmark-light.svg" href="https://once-ui.com" size="xs" />
-          <Line vert background="neutral-alpha-strong" />
-          <Text marginX="4">
-            <LetterFx trigger="instant">An ecosystem, not a UI kit</LetterFx>
-          </Text>
-        </Badge>
-        <Heading variant="display-strong-xl" marginTop="24">
-          Presence that doesn't beg for attention
-        </Heading>
+        <Image
+          src="/nano-logo.png"
+          alt="NanoStudio.us"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "auto", height: "auto", marginTop: "24px" }}
+        />
         <Text
           variant="heading-default-xl"
           onBackground="neutral-weak"
           wrap="balance"
           marginBottom="16"
         >
-          Build with clarity, speed, and quiet confidence
+          Advanced AI Video Synthesis • Multi-Modal Prompt Architecture • Neural Rendering Pipeline
         </Text>
-        <Button
-          id="docs"
-          href="https://docs.once-ui.com/once-ui/quick-start"
-          data-border="rounded"
-          weight="default"
-          prefixIcon="copy"
-          arrowIcon
+        <Text
+          variant="body-default-l"
+          onBackground="neutral-medium"
+          wrap="balance"
+          align="center"
+          marginBottom="16"
         >
-          Explore docs
-        </Button>
+          Complex AI video generation with custom model fine-tuning, advanced prompt engineering, 
+          and production-grade neural rendering systems. We handle the technical complexity 
+          so you can focus on creative vision.
+        </Text>
+        <Text
+          variant="body-default-s"
+          onBackground="neutral-medium"
+          wrap="balance"
+          align="center"
+          marginBottom="16"
+        >
+          Custom AI Model Training • Advanced JSON Schema Design • Production Pipeline Optimization • 
+          Multi-GPU Rendering • Real-time AI Inference • Custom Loss Function Development
+        </Text>
       </Column>
+      
+      {/* Footer */}
+      <Text
+        variant="caption-default-s"
+        onBackground="neutral-weak"
+        align="center"
+        style={{ marginTop: "auto", paddingTop: "2rem" }}
+      >
+        by svenca - searcly corp
+      </Text>
     </Column>
   );
 }
