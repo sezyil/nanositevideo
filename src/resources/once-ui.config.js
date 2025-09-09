@@ -115,7 +115,7 @@ const meta = {
     image: "/images/og/home.jpg",
     canonical: "https://nanostudio.us",
     robots: "index,follow",
-    alternates: [{ href: "https://nanostudio.us", hrefLang: "tr" }],
+    alternates: [{ href: "https://nanostudio.us", hrefLang: "en" }],
   },
   // add more routes and reference them in page.tsx
 };

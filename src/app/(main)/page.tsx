@@ -42,7 +42,7 @@ export default function Home() {
           wrap="balance"
           marginBottom="16"
         >
-          Büyük Markalar İçin Premium AI Video Üretimi • Gelişmiş Nöral Render Teknolojileri
+          Premium AI Video Production for Global Brands • Advanced Neural Rendering Technologies
         </Text>
         <Text
           variant="body-default-l"
@@ -51,9 +51,9 @@ export default function Home() {
           align="center"
           marginBottom="16"
         >
-          NANO Studio, global markalar için özel AI model eğitimi, gelişmiş nöral render 
-          teknolojileri ve üretim kalitesinde video sentezi sunar. Markanızın yaratıcı 
-          vizyonunu en son AI teknolojileri ile hayata geçiriyoruz.
+          NANO Studio delivers custom AI model training, advanced neural rendering 
+          technologies, and production-grade video synthesis for global brands. We bring 
+          your creative vision to life with cutting-edge AI technologies.
         </Text>
         <Text
           variant="body-default-s"
@@ -62,8 +62,8 @@ export default function Home() {
           align="center"
           marginBottom="16"
         >
-          Marka Özel AI Modelleri • Çok Modlu Video Sentezi • Endüstriyel Render Pipeline • 
-          Gerçek Zamanlı AI İşleme • Özel Prompt Mühendisliği • Profesyonel Video Post-Production
+          Brand-Specific AI Models • Multi-Modal Video Synthesis • Industrial Render Pipeline • 
+          Real-Time AI Processing • Custom Prompt Engineering • Professional Video Post-Production
         </Text>
       </Column>
       
